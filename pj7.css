@@ -1,0 +1,598 @@
+@media screen and (min-width:1440px) {
+.containercon {
+    background: rgb(178,137,253);
+    background: linear-gradient(90deg, rgba(178,137,253,1) 0%, rgba(174,127,253,1) 39%, rgba(210,123,107,1) 100%);
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 80px;
+}
+.eatly {
+    color: #FEC843;
+    font-weight: bolder;
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    cursor: pointer;
+}
+.navitems a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 25px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.btntalk button{
+    padding: 10px;
+    background-color: #FEC843;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid rgb(223, 218, 218);
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.undernav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.undernav_trai{
+    flex-basis: 70%;
+    text-align: center;
+}
+.undernav_trai h2{
+    font-size: 140px;
+}
+.undernav_trai p{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.undernav_traicon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.undernav_traicon span{
+    border: 2px solid rgb(199, 195, 195);
+    background-color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 20px;
+    color: #FEC843;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.undernav_traicon button{
+    background-color: #FEC843;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid rgb(199, 195, 195);
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+.undernav_phai {
+    flex-basis: 30%;
+    border: 10px solid white;
+    border-radius: 30% 31% 10% 10% / 33% 33% 0% 0% ;
+    padding: 50px;
+    height: 600px;
+    margin-top: 40px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    background-image: url(luca.png);
+    background-position: top;
+    position: relative;
+    top: 140px;
+    box-shadow: 0 0 10px black;
+}
+.footer1 {
+    background: rgb(235,231,244);
+    background: linear-gradient(90deg, rgba(235,231,244,1) 0%, rgba(229,210,239,1) 39%, rgba(235,231,244,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+}
+.footer1 p{
+    margin: 0px 180px;
+    font-size: 50px;
+    color: #b6aaee;
+}
+.muc2 {
+    background-color: #f3ecf5;
+}
+.ngang2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+.ourbestprograms {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.arrow {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.arrow span {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    margin-left: 10px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid rgb(243, 195, 243);
+    cursor: pointer;
+}
+.ourbestprograms span{
+    font-size: 40px;
+    display: flex;
+    color: #FEC843;
+    background-color: rgb(233, 125, 233);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0px 20px;
+}
+.ourbestprograms p{
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box span{
+    font-size: 80px;
+    color: #fee188;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.box p{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.box1, .box2, .box3, .box4 {
+    text-align: center;
+    align-items: center;
+    background-color: #9558fb;
+    width: 400px;
+    padding: 20px;
+    border-bottom: 20px solid white;
+    box-shadow: 0 0 10px black;
+}
+.box1 {
+    border-radius: 13% 0% 0% 13% / 14% 50% 0% 14%;
+    border-left: 20px solid white;
+    
+}
+.box4 {
+    border-radius: 0% 13% 13% 0% / 14% 14% 14% 14% ;
+    border-right: 20px solid white;
+    
+}
+.box3 {
+    height: 300px;
+    position: relative;
+    bottom: 25px;
+    border-radius: 14% 13% 0% 0% / 14% 14% 0% 0% ;
+    background-color: #ffd775;
+    
+}
+.box3 p, .box3 span{
+    color: #825c04;
+}
+.box1, .box2, .box4 {
+    border-top: 20px solid white;
+}
+.muc3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+}
+body {
+    background-color: #f3ecf5;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.muc3 p{
+    font-size: 30px;
+    color: #6e5999;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.muc3trai{
+    flex-basis: 50%;
+    margin-right:50px ;
+}
+.muc3trai img {
+    border: 10px solid white;
+    margin-left: 30px;
+    border-radius: 47% 47% 16% 16% / 24% 24% 15% 15% ;
+    box-shadow: 0 0 10px black;
+    width: 700px;
+}
+.muc3phai {
+    flex-basis: 50%;
+}
+.muc3phaicon {
+    display: flex;
+    align-items: center;
+}
+.muc3phaicon span{
+    font-size: 70px;
+    margin-right: 40px;
+    background-color: #a084f1;
+    display: flex;
+    padding: 5px;
+    border-radius: 15px;
+    border: 5px solid white;
+    color: #FEC843;
+}
+.muc3phaicon p{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+.grid4 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+.grid4 span {
+    font-size: 70px;
+    background-color: #a084f1;
+    display: flex;
+    padding: 5px;
+    border-radius: 15px;
+    border: 5px solid white;
+    width: 70px;
+    color: white;
+    position: relative;
+    bottom: 50px;
+}
+.box6 span{
+    background-color: #fbc73a;
+}
+.same {
+    max-width: 350px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border: 5px solid white;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #f0dbfd;
+    box-shadow: 0 0 10px black;
+}
+.box6 {
+    background-color: #f9f1fe;
+}
+.muc4 {
+    padding: 40px;
+    border: 2px solid black;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 35px;
+    border: 20px solid white;
+    background-color: #9b64fb;
+}
+.spanflag{
+    font-size: 60px;
+    border: 4px solid rgb(228, 212, 212);
+    background-color: #8043DE;
+    color: #FAC84D;
+    padding: 7px;
+    border-radius: 20px;
+}
+.muc4 button {
+    font-family: 'Roboto Slab', serif;
+    padding: 10px;
+    background-color: #FAC84D;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #845707;
+    font-size: 20px;
+    border: 4px solid rgb(228, 212, 212);
+    cursor: pointer;
+}
+.menu {
+    margin: 10px 70px;
+    font-family: 'Roboto Slab', serif;
+}
+.flexarrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrow2 {
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+}
+.arrow2 span {
+    border-radius: 50%;
+    background-color: white;
+    border: 4px solid gray;
+    color: #8043DE;
+    padding: 5px;
+    font-size: 40px;
+    margin: 0px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.trymenu {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+.trymenu span {
+    border: 4px solid rgb(228, 212, 212);
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #9e64f9;
+    color: #FEC843;
+}
+.trymenu p{
+    color: #6a539b;
+}
+.muc5 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.muc5_trai {
+    display: block;
+    flex-basis: 40%;
+}
+.muc5_giua {
+    min-width: 10px;
+    height: 700px;
+    background: linear-gradient(to bottom, #be73e4 20%, #ffffff 20%);
+    border-radius: 20px;
+}
+.muc5_phai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    flex-basis: 50%;
+}
+.cake {
+    margin: 40px;
+    text-align: center;
+}
+.cake1 {
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px ;
+    height: 600px;
+}
+.cake1 p{
+    text-align: center;
+    color: #6d589c;
+}
+.cake button {
+    padding: 25px;
+    font-family: 'Roboto Slab', serif;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #fbc73a;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.cake2 {
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px ;
+    height: 600px;
+}
+.cake2 p{
+    text-align: center;
+    color: #6d589c;
+}
+.cake1 img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 10px solid white;
+    border-radius: 20px ;
+}
+.cake2 img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 10px solid white;
+    border-radius: 20px ;
+}
+.show {
+    margin-left: 60px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    border: 4px solid white;
+    margin: 60px;
+    background-color: #e7d5f3;
+    border-radius: 30px;
+    color: #7c67a4;
+    min-width: 350px;
+}
+.show span {
+    margin: 0px 30px;
+    color: white;
+    border: 4px solid rgb(228, 212, 212);
+    padding: 10px;
+    background-color: #a084f1;
+    border-radius: 20px;
+    display: flex;
+}
+.box10 span{
+    background-color: #fbc73a;
+    padding: 15px;
+}
+.box10 {
+    background-color: #fafafa;
+}
+.box10 p{
+    color: #a46ff5;
+}
+.show p{
+    font-family: 'Roboto Slab', serif;
+}
+.wow {
+    text-align: center;
+    flex-basis: 50%;
+}
+.wow img {
+    border: 10px solid rgb(167, 96, 167);
+    border-radius: 50% 50% 10% 10% / 46% 46% 10% 10% ;
+    height: 600px;
+    width: 700px;
+    object-fit: cover;
+}
+.muc6 {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    width: 100%;
+}
+.testimonials {
+    display: flex;
+    align-items: center;
+}
+.testimonials p {
+    margin: 0px 20px;
+    color: #6f54a3;
+}
+.testimonials span {
+    display: flex;
+    align-items: center;
+    border: 4px solid rgb(228, 212, 212);
+    padding: 8px;
+    background-color: #b084fd;
+    border-radius: 20px;
+    color: #fbc73a;
+}
+.muc6_phai {
+    flex-basis: 40%;
+    margin-left: 40px;
+}
+.mess {
+    border: 4px solid rgb(228, 212, 212);
+    padding: 8px;
+    background-color: #b084fd;
+    border-radius: 20px;
+    color: #fbc73a;
+    position: absolute;
+    top: -30px;
+}
+.danhgia {
+    font-size: 20px;
+    font-style: italic;
+    color: #7f7786;
+    font-family: 'Courier New', Courier, monospace;
+}
+.sumoarrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sumoarrow p {
+    color: #9e74e5;
+}
+.sumoarrowend {
+    display: flex;
+    align-items: center;
+}
+.sumoarrowend span{
+    border-radius: 50%;
+    background-color: white;
+    border: 4px solid gray;
+    color: #8043DE;
+    padding: 5px;
+    font-size: 40px;
+    margin: 0px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.freelancer {
+    color: #b7adc2;
+}
+.boxdanhgia {
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #ebd1fc;
+    position: relative;
+}
+.muccuoi {
+    background-color: rgb(254, 244, 244);
+    width: 100%;
+    border-radius: 30px;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 60px;
+}
+.muccuoi1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eatlycuoi {
+    flex-basis: 20%;
+    margin-right: 150px;
+}
+.end {
+    margin: 40px;
+}
+.end a{
+    display: block;
+    color: #a39aac;
+    margin: 15px auto;
+    text-decoration: none;
+}
+.muccuoi2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #a39aac;
+    margin: 0px 170px;
+}
+.temp {
+    display: flex;
+    align-items: center;
+}
+.temp p{
+    margin: 0px 20px;    
+}
+.end p{
+    color: #6f54a1;
+}
+}
